@@ -17,8 +17,8 @@ const Slider = () => {
       }}
       className="slider"
     >
-      <SplideSlide id="splide1">
-        <div className="slider-content">
+      <SplideSlide >
+        <div id="splide1" className="slider-content">
         </div>
         <div className="slider-text">
             <div className="slider-title">
@@ -32,8 +32,8 @@ const Slider = () => {
             <button className="btn text-light">book online</button>
           </div>
       </SplideSlide>
-      <SplideSlide id='splide2'>
-      <div className="slider-content">
+      <SplideSlide >
+      <div id='splide2' className="slider-content">
       </div>
       <div className="slider-text">
           <div className="slider-title">
@@ -47,8 +47,8 @@ const Slider = () => {
           <button className="btn text-light">book online</button>
         </div>
       </SplideSlide>
-      <SplideSlide id="splide3">
-        <div className="slider-content">
+      <SplideSlide >
+        <div id="splide3" className="slider-content">
         </div>
         <div className="slider-text">
           <div className="slider-title">

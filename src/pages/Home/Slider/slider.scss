@@ -20,6 +20,19 @@
             padding-bottom: 40px;
             width: 100%;
             height: calc(100vh - 110px);
+           
+            #splide2{
+                background: url(../../../Assets/bg2.jpg);
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }  
+            #splide3{
+                background: url(../../../Assets/bg3.jpg);
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+            } 
             .slider-content{
                 background: url(../../../Assets/bg1.jpg);
                 background-position: center;
@@ -63,7 +76,8 @@
                     width: 200px;
                     background: $orange;
                 }
-            }        
+            } 
+                
         }
      
     }
