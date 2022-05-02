@@ -1,0 +1,104 @@
+@import '../../Styles/var.scss';
+.navbar{
+    .col-lg-12{
+        width: 100%;
+        display: block;
+    }
+    @include center();
+    height: 100px;
+    box-shadow: 0px 3px 4px rgba(0,0,0,0.12);
+    opacity: 0.9;
+    z-index: 10;
+        &__brand{
+            z-index: 20;
+            filter:contrast(1)
+        }
+        &__list{
+            height: 100%;
+            display: flex;
+            align-items: center;
+            .navbar__item{    
+                position: relative;
+                margin-right: 25px;
+                height: 100px;
+                display: flex;
+                align-items: center;
+                >a{
+                    filter:invert(1);
+                    position: relative;
+                    font-size: 22px;
+                    font-weight: 500;
+                    &::after{
+                        content: '';
+                        position: absolute;
+                        width: 0;
+                        transition: 0.4s;
+                        height: 3px;
+                        border-radius: 2px;
+                        background-color: $dark-blue;
+                        top: 0;
+                        left: 50%;
+                    }
+                    &:hover {
+                        color: unset;
+                        &::after{
+                            left: 0;
+                            width: 100%;
+                        }
+                    }
+                }
+                ul{
+                    position: absolute;
+                    display: none;
+                    flex-direction: column;
+                    top: 100%;
+                    left: 0;
+                    padding: 10px;
+                    padding-left: 20px;
+                    width: 100%;
+                    background-color: white;
+                    text-align: left;
+                    justify-content: flex-start;
+                    li{
+                        line-height: 30px;
+                        font-size: 25px;
+                    }
+                }
+                &:hover{
+                    background-co    &:hover{
+                        background-color: unset;
+                        ul{
+                            display: flex;
+                            top: 100%;
+        
+                        }
+                    }
+                    ul{
+                        display: flex;
+                        border-radius: 4px;
+                    }
+                }
+        }   
+    }
+}
+
+@media (min-width:1440px){
+   .navbar{
+      display: flex;
+      justify-content: center !important;
+       .col-xl-10{
+           height: 100px;
+           align-items: center;
+           display: flex;
+           justify-content: space-between; 
+       }
+   }
+}
+@media (max-width:767px){
+    .navbar{
+        padding-left: 50px;
+        &__list{
+            display: none;
+        }
+    }
+}
