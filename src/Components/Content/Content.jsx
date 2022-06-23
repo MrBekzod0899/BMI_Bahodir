@@ -70,24 +70,24 @@ const Content = () => {
         <div className="col-lg-6 col-md-6 col-sm-12 col-12">
           <div className="card">
             <ReactPlayer
+              controls={true}
               className="video-content"
-              url="https://www.youtube.com/watch?v=ysz5S6PUM-U"
+              url="https://youtu.be/BOjTegn9RuY"
             />
             <div className="card-footer">
-              <h4>Bahodir</h4>
-              <p>Bemor</p>
+              <h4>Low Back Pain</h4>
             </div>
           </div>
         </div>
         <div className="col-lg-6 col-md-6 col-sm-12 col-12">
           <div className="card">
             <ReactPlayer
+              controls={true}
               className="video-content"
-              url="https://www.youtube.com/watch?v=ysz5S6PUM-U"
+              url="https://youtu.be/p5zb17r0f3U"
             />
             <div className="card-footer">
-              <h4>Jahongir</h4>
-              <p>Bemor</p>
+              <h4>What Is Naturopathic Medicine?</h4>
             </div>
           </div>
         </div>
