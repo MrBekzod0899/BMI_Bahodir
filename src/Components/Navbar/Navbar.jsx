@@ -33,37 +33,29 @@ const Navbar = () => {
               <a href="#!">Bizning Xizmatlar</a>
             </li>
             <li className="navbar__item">
-              <Link to="/product">Fitness</Link>
+              <Link to="/product">Mahsulotlarimiz</Link>
               <ul className="inneritem">
                 <li>
-                  <a href="#!">Yangiliklar</a>
+                  <a href="#!">Vataminlar</a>
                 </li>
                 <li>
-                  <a href="#!">Mahsulotlarimiz</a>
+                  <a href="#!">Fitness jihozlar</a>
                 </li>
-                <li>
-                  <a href="#!">Biz haqimizda</a>
+                 <li>
+                  <a href="#!">Dorilar</a>
                 </li>
               </ul>
             </li>
             <li className="navbar__item">
-              <a href="#!">Home</a>
+              <a href="#!">Yangiliklar</a>
             </li>
             <li className="navbar__item">
-              <a href="#!">Home</a>
+              <a href="#!">Biz haqimizda</a>
             </li>
             <li className="navbar__item">
-              <a href="#!">Home</a>
+              <a href="#!">Fitness</a>
             </li>
-            <li className="navbar__item">
-              <a href="#!">Home</a>
-            </li>
-            <li className="navbar__item">
-              <a href="#!">Home</a>
-            </li>
-            <li className="navbar__item">
-              <a href="#!">Home</a>
-            </li>
+         
           </ul>
         </div>
       </div>
