@@ -30,22 +30,19 @@ const Navbar = () => {
               <Link to='/'>Bosh Sahifa</Link>
             </li>
             <li className="navbar__item">
-              <a href="#!">Bizning Xizmat</a>
+              <a href="#!">Bizning Xizmatlar</a>
             </li>
             <li className="navbar__item">
-              <Link to="/product">Mahsulotlarimiz</Link>
+              <Link to="/product">Fitness</Link>
               <ul className="inneritem">
                 <li>
-                  <a href="#!">Dorilar</a>
+                  <a href="#!">Yangiliklar</a>
                 </li>
                 <li>
-                  <a href="#!">Dorilar</a>
+                  <a href="#!">Mahsulotlarimiz</a>
                 </li>
                 <li>
-                  <a href="#!">Dorilar</a>
-                </li>
-                <li>
-                  <a href="#!">Dorilar</a>
+                  <a href="#!">Biz haqimizda</a>
                 </li>
               </ul>
             </li>
