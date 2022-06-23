@@ -15,7 +15,7 @@ const Slider = () => {
         arrows: false,
         type: "loop",
       }}
-      className="slider"
+      className="slider pb-4"
     >
       <SplideSlide>
         <div id="splide1" className="slider-content"></div>
@@ -51,7 +51,7 @@ const Slider = () => {
         <div id="splide3" className="slider-content"></div>
         <div className="slider-text">
           <div className="slider-title">
-            <h1>Saxsiy gigiyenaga raioya qiling</h1>
+            <h1>Gigiyenaga rioya qiling</h1>
           </div>
           <div className="slider-info">
             Sog’lom ovqatlanish -bu yaxshi kayfiyat va muvozanatni saqlashga
