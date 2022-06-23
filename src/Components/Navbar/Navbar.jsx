@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./navbar.scss";
-import logo from '../../Assets/logo3.png'
+import logo from '../../Assets/HB_logo_90x.webp'
 
 const Navbar = () => {
     const [show,setShow]=useState(false)
@@ -23,6 +23,8 @@ const Navbar = () => {
             <img
               src={logo}
               alt="logo"
+              width={80}
+              height={80}
             />
           </Link>
           <ul className="navbar__list">
