@@ -10,31 +10,31 @@ const Content = () => {
           <div className="col-lg-3">
             <div className="content-header">
               <i class="fa-solid fa-clock"></i>
-              <p>Hours of Operation</p>
+              <p>Ish vaqti</p>
               <ul>
                 <li>
-                  <b>Monday</b>
-                  <span>9:00am-7:30pm</span>
+                  <b>Dushanba</b>
+                  <span>9:00dan-7:30gacha</span>
                 </li>
                 <li>
-                  <b>Monday</b>
-                  <span>9:00am-7:30pm</span>
+                  <b>Seshanba</b>
+                  <span>9:00dan-7:30gacha</span>
                 </li>
                 <li>
-                  <b>Monday</b>
-                  <span>9:00am-7:30pm</span>
+                  <b>Chorshanba</b>
+                  <span>9:00dan-7:30gacha</span>
                 </li>
                 <li>
-                  <b>Monday</b>
-                  <span>9:00am-7:30pm</span>
+                  <b>Payshanba</b>
+                  <span>9:00dan-7:30gacha</span>
                 </li>
                 <li>
-                  <b>Monday</b>
-                  <span>9:00am-7:30pm</span>
+                  <b>Juma</b>
+                  <span>9:00dan-7:30gacha</span>
                 </li>
                 <li>
-                  <b>Monday</b>
-                  <span>9:00am-7:30pm</span>
+                  <b>Shanba</b>
+                  <span>9:00dan-7:30gacha</span>
                 </li>
               </ul>
             </div>
@@ -42,27 +42,27 @@ const Content = () => {
           <div className="col-lg-3">
             <div className="content-header">
               <i class="fa-solid fa-calendar"></i>
-              <p>Appointments</p>
+              <p>Uchrashuvlar</p>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis,
-              impedit?
+              Uchrashuvni rejalashtirish yoki onlayn bron qilish uchun bizga
+              qo'ngjirog giling .
             </p>
-            <h4>book now</h4>
+            <h4>Hozir band qiling</h4>
           </div>
           <div className="col-lg-3">
             <div className="content-header">
               <i class="fa-solid fa-server"></i>
-              <p>Services</p>
+              <p>Xizmatlar</p>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis,
-              impedit? Lorem, ipsum dolor.
+              Biz Chiropraktika, Fizioterapiya, Massaj, Napuropatiya va boshqa
+              turdagi ko'p xizmatlarni taklif etamiz
             </p>
-            <h4>book now</h4>
+            <h4>Barcha xizmatlarni ko'rish</h4>
           </div>
           <div className="content-footer">
-            <h2>Real Stories for Real Patients</h2>
+            <h2>Video resurslar</h2>
           </div>
         </div>
       </div>
@@ -74,8 +74,8 @@ const Content = () => {
               url="https://www.youtube.com/watch?v=ysz5S6PUM-U"
             />
             <div className="card-footer">
-              <h4>Bahodir Amodullayev</h4>
-              <p>Athlete</p>
+              <h4>Bahodir</h4>
+              <p>Bemor</p>
             </div>
           </div>
         </div>
@@ -86,8 +86,8 @@ const Content = () => {
               url="https://www.youtube.com/watch?v=ysz5S6PUM-U"
             />
             <div className="card-footer">
-              <h4>Bahodir Amodullayev</h4>
-              <p>Athlete</p>
+              <h4>Jahongir</h4>
+              <p>Bemor</p>
             </div>
           </div>
         </div>
@@ -97,45 +97,49 @@ const Content = () => {
           <div className="col-lg-3 col-md-3 col-sm-6 col-12">
             <div className="locationInfo">
               <i class="fa-solid fa-location-dot"></i>
-              <h4>Conveniently Located</h4>
+              <h4>Bizning manzilimiz</h4>
               <p>
-                We are located in the West Mountain area of Hamilton, seconds
-                from Limeridge Mall right off the Lincoln Alexander Parkway.
-                Free parking is available onsite.
+                Biz Yunusobod tumani 11-mavze, MEGA PLANET savdo markazidan uzoq
+                bo'lmagan Grant Hall restoran yaqinida bir necha daqidalik
+                yo'lda joylashganmiz. Binoda bepul avtoturargoh mavjud.
               </p>
             </div>
           </div>
           <div className="col-lg-3 col-md-3 col-sm-6 col-12">
             <div className="locationInfo">
               <i class="fa-solid fa-star"></i>
-              <h4>Caring Professionals</h4>
+              <h4>Eng yaxshi mutaxasislar</h4>
               <p>
-                Providing you with skilled providers for excellent care. Healthy
-                Body first opened 18 years ago and we've been providing care
-                with skill and compassion ever since. Experience the difference
-                in care yourself.
+                Sizni mukammal parvarish qilish uchun malakali murabbiylar bilan
+                ta'minlash . Sog'lom tana ochilganiga endi 3 yil bo'ldi va biz
+                shu vaqt ichida mahorat va mehribonlik bilan mijozlarimizga
+                g'amxo'rlik qilmoqdamiz. Albatta bu parvarishlarni o'zingiz his
+                qiling.
               </p>
             </div>
           </div>
           <div className="col-lg-3 col-md-3 col-sm-6 col-12">
             <div className="locationInfo">
               <i class="fa-solid fa-dollar-sign"></i>
-              <h4>Direct Billing</h4>
+              <h4>Arzon va qulay to'lov</h4>
               <p>
-                For your convenience, we bill directly to most insurance
-                carriers. Bring your policy information on your first visit and
-                we may be able to bill on your behalf, saving you time and money
+                Sizga qulay bo'lishi uchun biz har qanday turdagi to'lov
+                usullaridan foydalanamiz. Birinchi tashrifingizda siz
+                haqingizdagi maʼlumotlarni olib qo'yamiz va siz bilan kelgan xar
+                bir mijoz uchun sizga bonus sifatida to'lov narxi arzonlab
+                boradi.
               </p>
             </div>
           </div>
           <div className="col-lg-3 col-md-3 col-sm-6 col-12">
             <div className="locationInfo">
               <i class="fa-solid fa-hands-holding-child"></i>
-              <h4>Complete Care</h4>
+              <h4>To'liq Davolanish</h4>
               <p>
-                With extraordinary people comes extraordinary care. Whether you
-                have a workplace injury, a concussion, or pain and stiffness
-                from a traffic accident, better care is within reach.
+                Og'ir kasalikka chalingan odamlar bilan tez yordam ko'rsatiladi.
+                Qayerda bo'lmasin ish joyidagi shikastlanish, miya chayqalishi
+                yoki og'riq va qattiq yo'l-transport hodisasidan, to'liq
+                davolanishingiz mumkin.
               </p>
             </div>
           </div>
@@ -143,46 +147,46 @@ const Content = () => {
       </div>
       <div className="order">
         <div className="order-content">
-          <p>Book Your Appointment Today!</p>
-          <span>Call us to make appointment or book online</span>
+          <p>Hoziroq Ro'yhatdan o'ting!</p>
+          <span>Ko'rikni belgilash yoki online bron qilish</span>
           <div>
-            <button className="btn ">Book Order</button>
+            <button className="btn ">Band qilish</button>
           </div>
         </div>
       </div>
       <div className="ourService container">
         <div className="row">
           <div className="serviceInfo">
-            <h4>Our Service</h4>
+            <h4>Bizning xizmatlarimiz</h4>
           </div>
           <div className="col-lg-3 col-md-3 col-sm-6 col-12">
             <div className="card">
               <div className="card-content">
                 <img src={require("../../Assets/icon1.png")} alt="icon1" />
               </div>
-              <h4>Physiotherapy</h4>
+              <h4>Fizioterapiya</h4>
               <p>
-                Lorem ipsum dolor Lorem ipsum, dolor sit amet consectetur
-                adipisicing elit. Repellendus qui iusto similique alias
-                inventore eaque tempora incidunt eum. Illo non aliquam est amet
-                reprehenderit laboriosam repellendus earum 
+                Fizioterapiya protseduralari tiklanishni tezlashtirish, uzoq
+                vaqt og’riqli davrdan so’ng tanani tiklash, normal hayotiy
+                jarayonlarni tiklash, jarohatlarni davolash va tana ohangini
+                tiklash uchun buyuriladi.
               </p>
             </div>
           </div>
           <div className="col-lg-3 col-md-3 col-sm-6 col-12">
             <div className="card">
               <div className="card-content">
-                <img src={require("../../Assets/icon2.png")} alt="icon2" /> 
+                <img src={require("../../Assets/icon2.png")} alt="icon2" />
               </div>
-               <div className="card-info">
-                  <h4>Chiropractic</h4>
-                  <p>
-                    Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet
-                    consectetur adipisicing elit. Dolorem fuga similique
-                    veritatis consectetur quam molestias! consectetur
-                    adipisicing elit. Harum, est.
-                  </p>
-                </div>
+              <div className="card-info">
+                <h4>Chiropraktika</h4>
+                <p>
+                  nervlar, mushaklar va organlarga ta'sir qilish orqali boshqa
+                  kasalliklarni keltirib chiqaradigan bo'g'imlarning, ayniqsa,
+                  orqa miya ustunining noto'g'ri joylashishini diagnostika
+                  qilish va manipulyatsiya....
+                </p>
+              </div>
             </div>
           </div>
           <div className="col-lg-3 col-md-3 col-sm-6 col-12">
@@ -193,10 +197,9 @@ const Content = () => {
               <div className="card-info">
                 <h4>Naturopathy</h4>
                 <p>
-                  Lorem ipsum dolor sit Lorem ipsum dolor sit amet consectetur
-                  adipisicing elit. In temporibus expedita vitae doloremque
-                  quis, voluptates quisquam ipsam at! Dolorum, in. amet
-                  consectetur adipisicing elit. Harum, est.
+                  kasalliklarni dori vositalarisiz, parhezni nazorat qilish,
+                  jismoniy mashqlar va massaj kabi usullar bilan muvaffaqiyatli
+                  davolash yoki oldini olish mumkinligi haqidagi nazariyaga...
                 </p>
               </div>
             </div>
@@ -207,11 +210,11 @@ const Content = () => {
                 <img src={require("../../Assets/icon4.png")} alt="icon4" />
               </div>
               <div className="card-info">
-                <h4>Additional Services</h4>
+                <h4>Qo'shimcha xizmatlar</h4>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Harum, est. Lorem ipsum dolor sit amet consectetur adipisicing
-                  elit. Iste, tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel.
+                  Bizda judaham ko'plab xizmatlar mavjud .Yangidan yangi
+                  texnologiyalar , yangi tekshiruv aparatlari malakali xodimilar
+                  doimo sizga xizmat qiladi.Sizning sog'lig'ingizga g'amxurlik...
                 </p>
               </div>
             </div>

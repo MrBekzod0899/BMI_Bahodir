@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import './footer.scss'
-import logo from '../../Assets/logo3.png'
+import logo from '../../Assets/HB_logo_90x.webp'
 const Footer = () => {
   return (
     <div className="footer">
@@ -12,65 +12,66 @@ const Footer = () => {
                 <img
                 src={logo}
                 alt="logo"
+                width={150}
                 />
             </Link>
             <ul>
-                <li><span>1314 Upper Wentworth St,Hamilton, ON L9A 4W2</span></li>
-                <li><label htmlFor="tel">Tel:</label><a href="#!">+998337341399</a></li>
-                <li><label htmlFor="email">Email:</label><a href="#!">+998337341399</a></li>
-                <li><label htmlFor="fax">Fax:</label><a href="#!">+998337341399</a></li>
+                <li><span>Toshkent ,Yunusobod tumani,13-kavartal 35-uy</span></li>
+                <li><label htmlFor="tel">Tel:</label><a href="#!">+998330333333</a></li>
+                <li><label htmlFor="email">Email:</label><a href="#!">+998990999999</a></li>
+                <li><label htmlFor="fax">Fax:</label><a href="#!">+99951234567</a></li>
             </ul>
             </div>
             <div className="col-lg-3 col-md-3 col-sm-3 col-12">
                   <ul className="footer-list">
                       <li>
-                          <Link to="/">Home</Link>
+                          <Link to="/">Bosh sahifa</Link>
                       </li>
                       <li>
-                          <Link to="/">Meet The Team</Link>
+                          <Link to="/">Xizmatlarimiz</Link>
                       </li>
                       <li>
-                          <Link to="/">Insurance Billing</Link>
+                          <Link to="/">Tibbiy sug'urta</Link>
                       </li>
                       <li>
-                          <Link to="/">News</Link>
+                          <Link to="/">Yangiliklar</Link>
                       </li>
                       <li>
-                          <Link to="/">Book Online</Link>
+                          <Link to="/">Buyurtma berish</Link>
                       </li>
                       <li>
-                          <Link to="/">Contact Us</Link>
+                          <Link to="/">Bog'lanish</Link>
                       </li>
                   </ul>
             </div>
             <div className="col-lg-3 col-md-3 col-sm-3 col-12">
                   <ul>
                       <li>
-                          <Link to="/">Our Services</Link>
+                          <Link to="/">Bizning xizmatlar</Link>
                       </li>
                       <li>
-                          <Link to="/">Massage Therapy</Link>
+                          <Link to="/">Massaj</Link>
                       </li>
                       <li>
-                          <Link to="/">Chiropractic</Link>
+                          <Link to="/">Fizioterapiya</Link>
                       </li>
                       <li>
-                          <Link to="/">Naturopathy</Link>
+                          <Link to="/">Diagnoz</Link>
                       </li>
                       <li>
                           <Link to="/">Physiotherapy</Link>
                       </li>
                       <li>
-                          <Link to="/">Acupuncture</Link>
+                          <Link to="/">igna terapiya</Link>
                       </li>
                       <li>
-                          <Link to="/">Shockwave Therapy</Link>
+                          <Link to="/">Shok to'lqini terapiyasi</Link>
                       </li>
                       <li>
                           <Link to="/">Custom Orthotics</Link>
                       </li>
                       <li>
-                          <Link to="/">Concussion Management</Link>
+                          <Link to="/">Miya chayqalishini boshqarish</Link>
                       </li>
                       
                   </ul>

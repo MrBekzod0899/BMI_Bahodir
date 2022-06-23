@@ -1,6 +1,6 @@
 @import '../../../Styles/var.scss';
 .splider-react{
-    height:calc(100vh - 140px);
+    height:calc(100vh - 110px);
     width: 100%;
     margin: 0 !important;
     padding: 0 !important;
@@ -18,7 +18,7 @@
             padding: 0;
             padding-bottom: 40px;
             width: 100%;
-            height: calc(100vh - 50px);
+            height: calc(100vh - 15px);
            
             #splide2{
                 background: url(../../../Assets/bg2.jpg);

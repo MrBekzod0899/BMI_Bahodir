@@ -16,7 +16,7 @@ const Navbar = () => {
       <div className="row ">
         <div className="col-xl-10  col-lg-12  col-md-12 col-sm-12">
         {
-            !show ? <i className="fa-solid fa-bars" onClick={()=>setShow(!show)} ></i> :
+            !show ? <i className="fa-solid fa-bars text-dark" onClick={()=>setShow(!show)} ></i> :
             <i onClick={()=>setShow(!show)} className="fa-solid fa-xmark"></i>
         }
           <Link to="/" className="navbar__brand">
