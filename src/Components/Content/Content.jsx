@@ -74,7 +74,7 @@ const Content = () => {
               url="https://www.youtube.com/watch?v=ysz5S6PUM-U"
             />
             <div className="card-footer">
-              <h4>Bekzod Kurbonov</h4>
+              <h4>Bahodir Amodullayev</h4>
               <p>Athlete</p>
             </div>
           </div>
@@ -86,7 +86,7 @@ const Content = () => {
               url="https://www.youtube.com/watch?v=ysz5S6PUM-U"
             />
             <div className="card-footer">
-              <h4>Bekzod Kurbonov</h4>
+              <h4>Bahodir Amodullayev</h4>
               <p>Athlete</p>
             </div>
           </div>
